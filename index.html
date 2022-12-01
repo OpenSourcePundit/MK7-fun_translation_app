@@ -6,22 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YODA Speaks</title>
     <link rel="stylesheet" href="styles.css">
+
 </head>
 <body>
-<nav>
+<nav class="container">
     <h1>YODA Tells</h1>
 </nav>
-<div>
+<div class="container">
     <img src="undraw_refreshing_beverage_td3r.svg" alt="">
     <h2>Try the Yoda Language</h2>
+    <textarea id="txtInput" placeholder="Enter input here" ></textarea>
 </div>
-<textarea id="txtInput" placeholder="Enter input here" ></textarea>
+
 <button id="btn-Translate">Change to YODA</button>
-<div  class="container" style=" margin-left:1rem;font-size:large">Output will come here  👇</div>
-<div id="output" style="border: solid ;"> Translated text will come here</div>
+<div>Output will come here  👇</div>
+<div class="container" id="output" style=" width: auto max-width 00rem;; border:solid  mediumseagreen;"> Translated text will come here</div>
 </div>
 <script src="app.js" type="text/javascript">
 </script>
-
+<footer>
+    <h3>about</h3>
+    <p style="margin:1rem;">Are you a Minion fan ?? Do you know the gibberish they speak is a language ! Use this translator to convert English to Minion's tongue.</p>
+</footer>
 </body>
 </html>
