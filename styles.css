@@ -1,15 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Nerko+One&family=Patrick+Hand&family=Rubik+Marker+Hatch&display=swap');
 .container{
-    text-align: center;
-    
+    text-align:center;
 }
 img {
     height: auto;  
-    max-width: 20%;  
+    width: 10rem;  
   }
 footer{
     background-color: yellow;padding:.5rem;
     text-align: center;
     margin-top:1rem;
     font-family:'Nerko One', cursive;
+}
+.box{
+    text-align:left;
+    padding: .5rem;
+    margin: 1em 0rem 0rem 0rem;
+    
+}
+#btn-Translate{
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.8rem;
+    background-color: yellow;
+    font-size: medium;
+    font-family: 'Patrick Hand', cursive;
+    cursor: pointer;
+    margin: 1rem;
 }
