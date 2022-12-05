@@ -4,7 +4,7 @@
 }
 img {
     height: auto;  
-    width: 10rem;  
+    max-width: 10rem;  
   }
 footer{
     background-color: yellow;padding:.5rem;
