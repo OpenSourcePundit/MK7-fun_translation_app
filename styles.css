@@ -10,7 +10,7 @@ footer{
     background-color: yellow;padding:.5rem;
     text-align: center;
     margin-top:1rem;
-    font-family:'Nerko One', cursive;
+    /*font-family:'Nerko One', cursive;*/
 }
 .box{
     text-align:left;
